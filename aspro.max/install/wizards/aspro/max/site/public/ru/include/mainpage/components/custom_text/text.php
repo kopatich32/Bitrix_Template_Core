@@ -1,0 +1,5 @@
+<div class="content_wrapper_block">
+	<div class="maxwidth-theme pblock">
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit reprehenderit repellendus repellat inventore voluptatibus atque minima asperiores quis blanditiis voluptatum saepe quidem rerum similique libero consectetur quaerat magnam in ducimus ipsa corrupti nostrum, quae animi enim exercitationem. Unde, iure consequuntur. Fugit praesentium sequi earum ab doloribus! Facilis rem id aperiam obcaecati exercitationem ducimus nisi quia. Fugit quo rem, iste a dignissimos dolorum similique? Eos placeat laborum minima quos quidem iusto doloribus velit non ex cum alias, debitis autem explicabo ullam repellendus eaque quas praesentium nihil optio nulla, impedit neque doloremque. Tempore ipsam repellat laboriosam minima dolorum sapiente assumenda repellendus perferendis?
+	</div>
+</div>

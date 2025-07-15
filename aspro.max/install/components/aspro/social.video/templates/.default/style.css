@@ -1,0 +1,16 @@
+.social-video__icon {
+	--offset: 0;
+	--size: 20px;
+	background-position: calc(-1 * (var(--size) + 4px) * var(--offset));
+	background-image: var(--template__images__svg__social_mainpage);
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: var(--size);
+	width: var(--size);
+}
+.social-video__icon--youtube {
+	--offset: 1;
+}
+.social-video__icon--rutube {
+	--offset: 6;
+}

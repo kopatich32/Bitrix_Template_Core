@@ -1,0 +1,4 @@
+<?
+$MESS['CD_T_FROM_PRICE'] = 'from #PRICE_FORMATTED#';
+$MESS['CD_T_DELIVERY_PRICE_FREE'] = 'free';
+?>

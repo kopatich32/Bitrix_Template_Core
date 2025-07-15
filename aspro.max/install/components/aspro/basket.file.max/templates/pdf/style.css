@@ -1,0 +1,7 @@
+/* error */
+.basket-file-error{padding:0 0 60px;display:flex;flex-direction:row;}
+.basket-file-error-icon{padding-right:19px;}
+.basket-file-error-text{font-size:1em;line-height:1.4666em;margin:12px 0 0 0;}
+@media (max-width:767px){
+	.basket-file-error{padding-bottom:30px;}
+}

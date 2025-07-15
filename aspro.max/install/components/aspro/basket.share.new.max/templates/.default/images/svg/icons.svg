@@ -1,0 +1,9 @@
+<svg width="0" height="0" class="hidden" xmlns="http://www.w3.org/2000/svg">
+	<symbol viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="copy">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M16 12H8V4H16V12ZM6 3C6 2.44772 6.44772 2 7 2H17C17.5523 2 18 2.44772 18 3V13C18 13.5523 17.5523 14 17 14H7C6.44771 14 6 13.5523 6 13V3ZM3 6C2.44772 6 2 6.44772 2 7V17C2 17.5523 2.44772 18 3 18H13C13.5523 18 14 17.5523 14 17V16C14 15.4477 13.5523 15 13 15C12.4477 15 12 15.4477 12 16H4V8C4.55228 8 5 7.55228 5 7C5 6.44772 4.55228 6 4 6H3Z" fill="white"/>
+	</symbol>
+
+	<symbol viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" id="copied">
+		<path d="M6 10L9 13L15 7" stroke="#5FA800" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+	</symbol>
+</svg>

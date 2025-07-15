@@ -1,0 +1,12 @@
+.social-video .top_block_title .svg {
+  margin-bottom: 3px;
+}
+.outer-rounded-x {
+  border-radius: 3px;
+}
+
+@media (min-width: 992px) {
+  .with_left_block .wrapper_inner.front .social-video > .maxwidth-theme {
+    --theme-page-width-padding: 0px;
+  }
+}

@@ -1,0 +1,24 @@
+<?
+$MESS['BSD_T_EDIT_TEXT_BEFORE'] = 'Текст перед корзиной';
+$MESS['BSD_T_EDIT_ACTUAL_HINT'] = 'Текст подсказки';
+$MESS['BSD_T_READY_ITEMS_COUNT'] = 'Готовы к заказу #READY_ITEMS_COUNT#';
+$MESS['BSD_T_READY_ONE_ITEM'] = 'Готов к заказу #READY_ITEMS_COUNT#';
+$MESS['BSD_T_ITEM1'] = 'товар';
+$MESS['BSD_T_ITEM2'] = 'товара';
+$MESS['BSD_T_ITEM0'] = 'товаров';
+$MESS['BSD_T_SHOW_ACTUAL_PRICES'] = 'Актуальные цены и наличие';
+$MESS['BSD_T_TOTAL_PRICE'] = 'Общая стоимость корзины:';
+$MESS['BSD_T_ADD_TO_BASKET'] = 'Добавить в корзину';
+$MESS['BSD_T_REPLACE_BASKET'] = 'Заменить корзину';
+$MESS['BSD_T_PRODUCT_ECONOMY'] = 'Экономия';
+$MESS['BSD_T_PRODUCT_ARTICLE'] = 'Артикул';
+$MESS['BSD_T_PRODUCT_NOT_EXISTS'] = 'Товар удален из каталога';
+$MESS['BSD_T_PRODUCT_MEASURE_RATIO'] = 'цена за #RATIO# #MEASURE_NAME#';
+$MESS['BSD_T_PRODUCT_QUANTITY_ORIGINAL'] = 'вместо #QUANTITY# #MEASURE_NAME#';
+$MESS['BSD_T_PRODUCT_QUANTITY_AVAILABLE'] = 'доступно #QUANTITY# #MEASURE_NAME#';
+$MESS['CATALOG_WISH'] = 'Отложить';
+$MESS['CATALOG_WISH_OUT'] = 'В отложенных';
+$MESS['CATALOG_COMPARE'] = 'Сравнить';
+$MESS['CATALOG_COMPARE_OUT'] = 'В сравнении';
+$MESS['ONE_CLICK_BUY'] = 'Купить в 1 клик';
+$MESS['FAST_VIEW'] = 'Быстрый просмотр';

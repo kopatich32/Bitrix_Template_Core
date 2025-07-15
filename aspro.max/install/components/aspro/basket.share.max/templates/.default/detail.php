@@ -1,0 +1,44 @@
+<?
+if(!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) die();
+$this->setFrameMode(false);
+
+$APPLICATION->IncludeComponent(
+	"aspro:basket.share.detail.max",
+	".default",
+	array(
+		"ACTUAL" => $arParams['DETAIL_ACTUAL'],
+		"COMPOSITE_FRAME_MODE" => "A",
+		"COMPOSITE_FRAME_TYPE" => "AUTO",
+		"CODE" => $arResult['VARIABLES']['CODE'],
+		"FILE_404" => $arParams['FILE_404'],
+		"MESSAGE_404" => $arParams['MESSAGE_404'],
+		"SET_STATUS_404" => $arParams['SET_STATUS_404'],
+		"SHOW_404" => $arParams['SHOW_404'],
+		"SET_PAGE_TITLE" => $arParams['DETAIL_SET_PAGE_TITLE'],
+		"SHOW_VERSION_SWITCHER" => $arParams['DETAIL_SHOW_VERSION_SWITCHER'],
+		"SHOW_AMOUNT" => $arParams['DETAIL_SHOW_AMOUNT'],
+		"SHOW_DISCOUNT_PERCENT" => $arParams['DETAIL_SHOW_DISCOUNT_PERCENT'],
+		"SHOW_DISCOUNT_PERCENT_NUMBER" => $arParams['DETAIL_SHOW_DISCOUNT_PERCENT_NUMBER'],
+		"SHOW_ONE_CLICK_BUY" => $arParams['DETAIL_SHOW_ONE_CLICK_BUY'],
+		"SHOW_OLD_PRICE" => $arParams['DETAIL_SHOW_OLD_PRICE'],
+		"SHOW_STICKERS" => $arParams['DETAIL_SHOW_STICKERS'],
+		"USE_COMPARE" => $arParams['DETAIL_USE_COMPARE'],
+		"USE_DELAY" => $arParams['DETAIL_USE_DELAY'],
+		"USE_FAST_VIEW" => $arParams['DETAIL_USE_FAST_VIEW'],
+		"STIKERS_PROP" => $arParams['STIKERS_PROP'],
+		"SALE_STIKER" => $arParams['SALE_STIKER'],
+		"FINAL_PRICE" => $arParams['FINAL_PRICE'],
+		"FAV_ITEM" => $arParams['FAV_ITEM'],
+		"PRODUCT_PROPERTIES" => $arParams['DETAIL_PRODUCT_PROPERTIES'],
+		"USE_CUSTOM_MESSAGES" => $arParams['DETAIL_USE_CUSTOM_MESSAGES'],
+		"MESS_TITLE" => $arParams['DETAIL_MESS_TITLE'],
+		"MESS_SHOW_ACTUAL_PRICES" => $arParams['DETAIL_MESS_SHOW_ACTUAL_PRICES'],
+		"MESS_TOTAL_PRICE" => $arParams['DETAIL_MESS_TOTAL_PRICE'],
+		"MESS_ADD_TO_BASKET" => $arParams['DETAIL_MESS_ADD_TO_BASKET'],
+		"MESS_REPLACE_BASKET" => $arParams['DETAIL_MESS_REPLACE_BASKET'],
+		"MESS_PRODUCT_ECONOMY" => $arParams['DETAIL_MESS_PRODUCT_ECONOMY'],
+		"MESS_PRODUCT_NOT_EXISTS" => $arParams['DETAIL_MESS_PRODUCT_NOT_EXISTS'],
+	),
+	$component,
+	array("HIDE_ICONS" => "Y")
+);

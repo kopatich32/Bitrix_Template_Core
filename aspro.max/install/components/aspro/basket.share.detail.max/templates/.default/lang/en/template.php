@@ -1,0 +1,24 @@
+<?php
+$MESS["BSD_T_ADD_TO_BASKET"] = 'Add to Cart';
+$MESS["BSD_T_EDIT_ACTUAL_HINT"] = 'Hint Text';
+$MESS["BSD_T_EDIT_TEXT_BEFORE"] = 'Text before shopping cart';
+$MESS["BSD_T_ITEM0"] = 'goods';
+$MESS["BSD_T_ITEM1"] = 'product';
+$MESS["BSD_T_ITEM2"] = 'product';
+$MESS["BSD_T_PRODUCT_ARTICLE"] = 'Article number';
+$MESS["BSD_T_PRODUCT_ECONOMY"] = 'Economy';
+$MESS["BSD_T_PRODUCT_MEASURE_RATIO"] = 'price for #RATIO# #MEASURE_NAME#';
+$MESS["BSD_T_PRODUCT_NOT_EXISTS"] = 'Product removed from catalog';
+$MESS["BSD_T_PRODUCT_QUANTITY_AVAILABLE"] = 'available #QUANTITY# #MEASURE_NAME#';
+$MESS["BSD_T_PRODUCT_QUANTITY_ORIGINAL"] = 'instead of #QUANTITY# #MEASURE_NAME#';
+$MESS["BSD_T_READY_ITEMS_COUNT"] = 'Ready to order #READY_ITEMS_COUNT#';
+$MESS["BSD_T_READY_ONE_ITEM"] = 'Ready to order #READY_ITEMS_COUNT#';
+$MESS["BSD_T_REPLACE_BASKET"] = 'Replace Cart';
+$MESS["BSD_T_SHOW_ACTUAL_PRICES"] = 'Current prices and availability';
+$MESS["BSD_T_TOTAL_PRICE"] = 'Total Cart Value:';
+$MESS["CATALOG_COMPARE"] = 'Compare';
+$MESS["CATALOG_COMPARE_OUT"] = 'In comparison';
+$MESS["CATALOG_WISH"] = 'Postpone';
+$MESS["CATALOG_WISH_OUT"] = 'In deferred';
+$MESS["FAST_VIEW"] = 'Quick View';
+$MESS["ONE_CLICK_BUY"] = 'Buy in 1 click';

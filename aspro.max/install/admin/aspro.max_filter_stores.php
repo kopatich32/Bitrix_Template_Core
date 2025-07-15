@@ -1,0 +1,1 @@
+<?require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/aspro.max/admin/filter_stores.php");?>
