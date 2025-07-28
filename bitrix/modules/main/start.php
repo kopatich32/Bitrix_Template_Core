@@ -1,1 +1,117 @@
-<? $GLOBALS['____1567249600']= array(base64_decode(''.'ZX'.'Jyb'.'3JfcmVwb3J0aW5n'),base64_decode('ZG'.'V'.'m'.'aW5l'),base64_decode(''.'bWlj'.'cm90aW1l'),base64_decode('ZGVm'.'aW'.'5lZA=='),base64_decode('ZGV'.'m'.'a'.'W5'.'l'),base64_decode('c3RydG91c'.'HBlcg='.'='),base64_decode(''.'c2V0Y29'.'v'.'a'.'2ll'),base64_decode('ZGVma'.'W5l'),base64_decode('Zmls'.'Z'.'V9leG'.'lz'.'dHM='));if(!function_exists(__NAMESPACE__.'\\___1435691935')){function ___1435691935($_834698861){static $_1947297507= false; if($_1947297507 == false) $_1947297507=array('U1RB'.'UlRfRVhFQ1'.'9'.'U'.'SU1F','Ql9'.'QUk9M'.'T0dfSU5DTF'.'V'.'ERUQ=','Ql9'.'Q'.'U'.'k9'.'MT'.'0dfSU5'.'DT'.'FVERUQ=','L2'.'J'.'4X3Jvb3Q'.'ucG'.'hw','L2xpYi'.'9sb2'.'F'.'kZXI'.'ucGhw','L'.'2lu'.'Y2'.'x1ZGUvYXV0b2xvYWQucG'.'hw','L2Ns'.'Y'.'X'.'Nz'.'ZX'.'MvZ'.'2V'.'u'.'ZXJ'.'h'.'b'.'C9'.'2ZXJz'.'aW'.'9u'.'L'.'nBoc'.'A==','L3Rvb2xzLn'.'BocA'.'==',''.'RE9DVU1'.'FTl'.'RfUk9'.'PVA'.'==','L'.'3'.'BocF9p'.'bnRl'.'cmZhY2UvZGJjb'.'25uL'.'nBocA==','bXlzcWw=','','','','','L2luY2x1'.'ZGUvY'.'29uc'.'3R'.'hbn'.'R'.'zLnBo'.'c'.'A='.'=','RE'.'I=','REI=',''.'REI=','R'.'E9'.'DVU1F'.'Tl'.'RfUk9PVA==','L2'.'1'.'5c3'.'F'.'sX2RlYnVn'.'LnN'.'xbA==','','c2hvd19zcWx'.'fc3'.'Rhd'.'A==','c'.'2h'.'vd'.'1'.'9z'.'c'.'W'.'xfc3RhdA==','WQ'.'==',''.'WQ'.'==','','c2hvd19zcWx'.'f'.'c3'.'RhdA==','L'.'w==','c2hvd1'.'9z'.'c'.'W'.'xfc3R'.'hdA'.'==','c2'.'hvd1'.'9zcWx'.'fc3RhdA='.'=',''.'WQ==','REI=','TE'.'lDRU'.'5TR'.'V9LRVk=',''.'Q0FD'.'SEVf'.'U'.'1RBV'.'F9CWVRFUw==','Q0FDSEVfT'.'U'.'F'.'OQUdFU'.'g==',''.'c3'.'RhY2'.'t'.'DYWNoZU1hbmF'.'nZX'.'I=','L2NsYXNz'.'ZXMvZ2VuZXJ'.'hb'.'C91cGRhdGVf'.'ZGJfdXBkYXRlci'.'5waHA=');return base64_decode($_1947297507[$_834698861]);}};  $GLOBALS['____1567249600'][0](E_COMPILE_ERROR| E_ERROR| E_CORE_ERROR| E_PARSE); $GLOBALS['____1567249600'][1](___1435691935(0), $GLOBALS['____1567249600'][2](true)); if(!$GLOBALS['____1567249600'][3](___1435691935(1))){ $GLOBALS['____1567249600'][4](___1435691935(2), true);} require_once __DIR__. ___1435691935(3); require_once __DIR__. ___1435691935(4); require_once __DIR__. ___1435691935(5); require_once __DIR__. ___1435691935(6);  require_once __DIR__. ___1435691935(7);  FormDecode(); $_454746347= \Bitrix\Main\HttpApplication::getInstance();  global $DBType, $DBDebug, $DBDebugToFile, $DBHost, $DBName, $DBLogin, $DBPassword;  require_once($_SERVER[___1435691935(8)]. BX_PERSONAL_ROOT. ___1435691935(9));  $DBType= ___1435691935(10); $DBHost= ___1435691935(11); $DBLogin= ___1435691935(12); $DBPassword= ___1435691935(13); $DBName= ___1435691935(14);  require_once __DIR__. ___1435691935(15);  CAllDatabase::registerAutoload();  $GLOBALS[___1435691935(16)]= new CDatabase(); $GLOBALS[___1435691935(17)]->debug= $DBDebug; if($DBDebugToFile){ $GLOBALS[___1435691935(18)]->DebugToFile= true; $_454746347->getConnection()->startTracker()->startFileLog($_SERVER[___1435691935(19)]. ___1435691935(20));}  $_2084055887= ___1435691935(21); if(isset($_GET[___1435691935(22)])){ $_2084055887=($GLOBALS['____1567249600'][5]($_GET[___1435691935(23)]) == ___1435691935(24)? ___1435691935(25): ___1435691935(26)); $GLOBALS['____1567249600'][6](___1435691935(27), $_2084055887, false, ___1435691935(28));} elseif(isset($_COOKIE[___1435691935(29)])){ $_2084055887= $_COOKIE[___1435691935(30)];} if($_2084055887 == ___1435691935(31)){ $GLOBALS[___1435691935(32)]->ShowSqlStat= true; $_454746347->getConnection()->startTracker();}  $GLOBALS['____1567249600'][7](___1435691935(33), $_454746347->getLicense()->getKey());  $GLOBALS[___1435691935(34)]= min(114,0,38); $GLOBALS[___1435691935(35)]= new CCacheManager; $GLOBALS[___1435691935(36)]= new CStackCacheManager(); if($GLOBALS['____1567249600'][8](($_2085605439= __DIR__. ___1435691935(37)))){ $US_HOST_PROCESS_MAIN= true; include $_2085605439;}?>
+<?php
+/**
+ * Bitrix Framework
+ * @package bitrix
+ * @subpackage main
+ * @copyright 2001-2022 Bitrix
+ */
+
+error_reporting(E_COMPILE_ERROR|E_ERROR|E_CORE_ERROR|E_PARSE);
+
+require_once(__DIR__."/bx_root.php");
+require_once(__DIR__."/lib/loader.php");
+require_once(__DIR__.'/include/autoload.php');
+
+define("START_EXEC_TIME", microtime(true));
+define("B_PROLOG_INCLUDED", true);
+
+require_once(__DIR__."/classes/general/version.php");
+
+// global functions
+require_once(__DIR__."/tools.php");
+
+FormDecode();
+
+$application = \Bitrix\Main\HttpApplication::getInstance();
+
+//Defined in dbconn.php
+global $DBType, $DBDebug, $DBDebugToFile, $DBHost, $DBName, $DBLogin, $DBPassword;
+
+//read various parameters
+require_once($_SERVER["DOCUMENT_ROOT"].BX_PERSONAL_ROOT."/php_interface/dbconn.php");
+
+// not used anymore
+$DBType = "mysql";
+$DBHost = "";
+$DBLogin = "";
+$DBPassword = "";
+$DBName = "";
+
+define('BX_UTF_PCRE_MODIFIER', (defined('BX_UTF') ? 'u' : ''));
+
+define('BX_RESIZE_IMAGE_PROPORTIONAL_ALT', 0);
+define('BX_RESIZE_IMAGE_PROPORTIONAL', 1);
+define('BX_RESIZE_IMAGE_EXACT', 2);
+
+if(!defined("CACHED_b_lang")) define("CACHED_b_lang", 3600);
+if(!defined("CACHED_b_option")) define("CACHED_b_option", 3600);
+if(!defined("CACHED_b_lang_domain")) define("CACHED_b_lang_domain", 3600);
+if(!defined("CACHED_b_site_template")) define("CACHED_b_site_template", 3600);
+if(!defined("CACHED_b_event")) define("CACHED_b_event", 3600);
+if(!defined("CACHED_b_agent")) define("CACHED_b_agent", 3660);
+if(!defined("CACHED_menu")) define("CACHED_menu", 3600);
+if(!defined("CACHED_b_file")) define("CACHED_b_file", false);
+if(!defined("CACHED_b_file_bucket_size")) define("CACHED_b_file_bucket_size", 100);
+if(!defined("CACHED_b_group")) define("CACHED_b_group", 3600);
+if(!defined("CACHED_b_user_field")) define("CACHED_b_user_field", 3600);
+if(!defined("CACHED_b_user_field_enum")) define("CACHED_b_user_field_enum", 3600);
+if(!defined("CACHED_b_task")) define("CACHED_b_task", 3600);
+if(!defined("CACHED_b_task_operation")) define("CACHED_b_task_operation", 3600);
+if(!defined("CACHED_b_rating")) define("CACHED_b_rating", 3600);
+if(!defined("CACHED_b_rating_vote")) define("CACHED_b_rating_vote", 86400);
+if(!defined("CACHED_b_rating_bucket_size")) define("CACHED_b_rating_bucket_size", 100);
+if(!defined("CACHED_b_user_access_check")) define("CACHED_b_user_access_check", 3600);
+if(!defined("CACHED_b_user_counter")) define("CACHED_b_user_counter", 3600);
+if(!defined("CACHED_b_group_subordinate")) define("CACHED_b_group_subordinate", 31536000);
+if(!defined("CACHED_b_smile")) define("CACHED_b_smile", 31536000);
+if(!defined("TAGGED_user_card_size")) define("TAGGED_user_card_size", 100);
+
+// From here global variable $DB is available (CDatabase class)
+require_once(__DIR__."/classes/mysql/database.php");
+
+$GLOBALS["DB"] = new CDatabase;
+$GLOBALS["DB"]->debug = $DBDebug;
+if ($DBDebugToFile)
+{
+	$GLOBALS["DB"]->DebugToFile = true;
+	$application->getConnection()->startTracker()->startFileLog($_SERVER["DOCUMENT_ROOT"]."/mysql_debug.sql");
+}
+
+//magic parameters: show sql queries statistics
+$show_sql_stat = "";
+if(array_key_exists("show_sql_stat", $_GET))
+{
+	$show_sql_stat = (strtoupper($_GET["show_sql_stat"]) == "Y"? "Y":"");
+	setcookie("show_sql_stat", $show_sql_stat, false, "/");
+}
+elseif(array_key_exists("show_sql_stat", $_COOKIE))
+{
+	$show_sql_stat = $_COOKIE["show_sql_stat"];
+}
+
+if ($show_sql_stat == "Y")
+{
+	$GLOBALS["DB"]->ShowSqlStat = true;
+	$application->getConnection()->startTracker();
+}
+
+//licence key
+$LICENSE_KEY = "";
+if(file_exists(($_fname = $_SERVER["DOCUMENT_ROOT"].BX_ROOT."/license_key.php")))
+	include($_fname);
+if($LICENSE_KEY == "" || strtoupper($LICENSE_KEY) == "DEMO")
+	define("LICENSE_KEY", "DEMO");
+else
+	define("LICENSE_KEY", $LICENSE_KEY);
+
+//language independed classes
+require_once(__DIR__."/classes/general/cache.php");
+require_once(__DIR__."/classes/general/module.php");
+
+error_reporting(E_COMPILE_ERROR|E_ERROR|E_CORE_ERROR|E_PARSE);
+
+if (file_exists(($fname = __DIR__."/classes/general/update_db_updater.php")))
+{
+	$US_HOST_PROCESS_MAIN = True;
+	include($fname);
+}

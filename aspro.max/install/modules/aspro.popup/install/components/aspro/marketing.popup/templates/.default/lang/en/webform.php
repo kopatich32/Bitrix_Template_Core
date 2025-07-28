@@ -1,5 +1,0 @@
-<?
-$MESS["MARKETING_POPUP_CLOSE_BUTTON_NAME"] = "Close";
-$MESS["MARKETING_POPUP_SEND_BUTTON_NAME"] = "Send message";
-$MESS["MARKETING_POPUP_SUCCESS_MESSAGE"] = "Your message has been sent!";
-?>
